@@ -1,0 +1,65 @@
+---
+title: "Shortmers: photo-labile antisense oligonucleotides"
+format:
+  manuscript_template-pdf:
+    keep-tex: true 
+    link-citations: true
+    cite-method: natbib
+author:
+  - name: Alfred N. Larsson
+    affiliations:
+      - name: Department of Immunology, Genetics & Pathology
+        id: †
+        department: Uppsala University
+        city: Uppsala
+        postal-code: SE-752 37
+        country: SWEDEN
+    attributes:
+      equal-contributor: false
+  - name: Andreas Torell
+    affiliations:
+      - ref: †
+    attributes:
+      equal-contributor: false  
+  - name: Luke Odell  
+    affiliations:
+      - name: Department of Medicinal Chemistry
+        id: §
+        department:  Uppsala University
+        city: Uppsala
+        postal-code: SE-752 37
+        country: SWEDEN  
+  - name: Daniel Fürth
+    affiliations:
+      - ref: †
+      - name: SciLifeLab
+        id: ‡
+        department: Department of Immunology, Genetics & Pathology
+        city: Uppsala
+        postal-code: SE-752 37
+        country: SWEDEN
+    email: furth@scilifelab.uu.se 
+    attributes:
+      equal-contributor: false
+      corresponding: true 
+abstract: |
+  Here we introduce a new form of photo-triggered antisense oligonucleotide (ASO) therapy, called "shortmers," which allows for spatiotemporal control of gene expression with high resolution by photolitography. Shortmers require dual-recognition of their target by two very short probes (6-8 nucleotides) through a photo-inducible click chemistry. This technology addresses three significant challenges associated with traditional ASO therapy: reduced off-target effects due to dual-pair recognition, improved membrane diffusion due to their compact size aiding drug delivery, and localized impact via infrared spatial induction, thereby preventing systemic adverse side effects. As a proof-of-concept, we target the PTBP1 RNA-binding protein and demonstrate effective gene expression reduction, highlighting shortmers as a promising tool for targeted, efficient ASO-based therapies.
+runningauthor: "One, Two, and Three"
+significance: |
+  Authors must submit a 120-word maximum statement about the significance of their research paper written at a level understandable to an undergraduate educated scientist outside their field of speciality. The primary goal of the significance statement is to explain the relevance of the work in broad context to a broad readership. The significance statement appears in the paper itself and is required for all research papers.
+# author_contributions: "Please provide details of author contributions here."
+conflict_of_interest: "Acknowledgements: We gratefully acknowledge V. Agmo Hernandez for his expert assistance in helping us set up fluorescence spectrophotometry. Conflict of interest: D.F. serves on the scientific advisory board of Navinci Diagnostics AB."
+#equal-contributor: "A.O.(Author One) contributed equally to this work with A.T. (Author Two) (remove if not applicable)."
+#keywords: [protein-protein interaction, fluorogenic, microscopy]
+#acknowledgements: "" 
+bibliography: bibliography.bib  
+fontsize: "10pt"
+classoption:
+ - twocolumn
+ - twoside
+latex-clean: false
+engine: knitr
+---
+
+{{< lipsum >}}
+
