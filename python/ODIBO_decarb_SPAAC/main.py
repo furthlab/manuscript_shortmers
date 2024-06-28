@@ -44,6 +44,7 @@ for i, mass_spectrum in enumerate(mass_spectra):
     # Add dead space
     dead_space_factor = 1.2  # Increase the y-axis limit by 20% to add dead space
     axes[i+1].set_ylim(0, 100 * dead_space_factor)
+    axes[i+1].set_xlim(0, 1200)
 
     axes[i+1].set_xlabel('M/Z')
     axes[i+1].set_ylabel('Intensity (%)')
