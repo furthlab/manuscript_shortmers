@@ -36,7 +36,7 @@ for i, mass_spectrum in enumerate(mass_spectra):
 
     axes[i+1].bar(mz_values, intensity_values, color=COLORS[i], width=MS_LW)
 
-    # Label all peaks larger than 50%
+    # Label all peaks larger than threshold
     for mz, intensity in zip(mz_values, intensity_values):
         if intensity > MS_PEAK_THRESHOLD and mz > 200:
             axes[i+1].annotate(f'{mz:.2f}', xy=(mz, intensity), xytext=(mz, intensity + 5), fontsize=8, color=COLORS[i], ha='center')
