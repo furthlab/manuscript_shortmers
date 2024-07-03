@@ -63,3 +63,10 @@ engine: knitr
 
 {{< lipsum >}}
 
+\begin{figure*}[bt!]
+  \label{fig:01}
+  \includegraphics[width=\textwidth]{figures/pdf/figure01.pdf}
+  \caption{ \textbf{Fluorogenic Proximity (FluoroProx) Probes Enable Dual-Substrate Recognition. a)} Schematic of fluorogenic proximity probes. A branched PEG linker with three arms connects a xanthene-derivative dye to two tetrazines. The energy transfer and quenching of the dye are mitigated only upon reaction of the tetrazine with trans-cyclooctene conjugated antibodies, resulting in rapid fluorogenic activation. \textbf{b)} Quenching of AZDye488 and AZDye594 upon conjugation to PEG1-bis(PEG2-tetrazine), Tz, compared to unquenched, -. \textbf{c)} Emission spectra of AZdye488 and AZdye594 before and after bis-tetrazine quenching. \textbf{d)} Detection of the cMyc/Max transcription factor oncogene complex in PC3 cells. Primary cMyc and Max antibodies are detected by secondary antibodies conjugated to trans-cycloctene (TCO), which serves as the substrate for the branched tetrazine arm's inverse electron-demand reaction. Dual-substrate recognition results in complete unquenching of the fluorescent signal. \textbf{e)} Single primary antibody presence, either cMyc or \textbf{f)} Max, is insufficient to reverse the quenching effect caused by unreacted free tetrazine arms. \textbf{g)} Omission of secondary TCO-antibodies. Green: AZDye594 signal, magenta: Phalloidin-FITC, blue: DAPI. Scale bar: 20 μm. In the schematics of d-g, the indirect antibody staining is omitted for simplicity. \textbf{h)} Quantitative comparison of fluorescent signal with FluoroProx probes compared to traditional immunofluorescence for cMyc/Max in nucleus versus cytosol. Groups indicate presence of primary antibody. Neg., are negative controls, where all primary antibodies were ommitted, only secondary used (*** $P < 0.001$, n.s. $P > 0.05$). Error bars +/- 1 S.E.M. $n = 689$ cells}
+\end{figure*}
+
+{{< lipsum >}}
