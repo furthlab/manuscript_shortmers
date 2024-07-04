@@ -71,4 +71,51 @@ engine: knitr
 
 {{< lipsum >}}
 
-## Methods
+# Material & Methods {.unnumbered}
+
+## Synthesis {.unnumbered}
+
+## 1-Bromo-3-[(4-_tert_-butylphenoxy)methyl]benzene (2) {.unnumbered}
+
+3-Bromobenzyl bromide (5.051 g, 20.2 mmol, 1 eq.), 4-_tert_-butylphenol (3.044 g, 20.3 mmol, 1 eq.) and K~2~CO~3~ (4.454 g, 32.2 mmol, 1.6 eq.) were dissolved in DMF (20 mL) and stirred at 85 °C overnight. The reaction mixture was returned to r.t., diluted with Et2O (200 mL) and washed with water (200 mL) and brine (200 mL). The solution was dried over anhydrous MgSO~4~ and evaporated, leaving a yellow solid. The crude product was purified by column chromatography (100% _iso_-hexane) leaving a white solid (3.319 g, 10.4 mmol, 51.4% yield).
+
+- **^1^H NMR** (400 MHz, CDCl~3~): δ 7.60 (dd, J = 1.9, 1.9 Hz, 1H), 7.45 (ddd, J = 7.8, 1.9, 1.1 Hz, 1H), 7.36 (ddd, J = 7.7, 1.8, 1.0,  Hz, 1H), 7.32 (dt, J = 8.8, 3.3 Hz, 2H), 7.25 (t, 7.8 Hz, 1H), 6.90 (dt, J = 8.8, 3.3 Hz, 2H), 5.01 (s, 2H), 1.30 (s, 9H).
+
+- **^13^C NMR** (101 MHz, CDCl~3~): δ 156.41, 144.07, 139.82, 131.08, 130.47, 130.27, 126.48, 125.98, 122.81, 114.40, 69.28, 34.25, 31.65.
+
+- **MS (EI):** m/z calcd for C~17~H~19~BrO: 319.24; found 318.1.
+
+- **MS (ESI):** m/z [M+H]^+^ calcd for C~17~H~20~BrO: 320.25; found 359.3 ([M+K]^+^).
+
+- **Rf** = 0.55 (_iso_-hexane)
+
+## 3-[(4-_tert_-Butylphenoxy)methyl]phenol (3)  {.unnumbered}
+
+Compound **2** (1.36 g, 4.26 mmol, 1 eq.) was dissolved in dry THF (10 mL) under nitrogen atmosphere and cooled to -78 °C. _n_-BuLi (1.6 M, 3 mL, 4.80 mmol, 1.1 eq.) was added dropwise and the solution was stirred for 30 min. Triisopropyl borate (1.2 mL, 5.20 mmol, 1.2 eq.) was added and the reaction mixture was warmed to r.t. The mixture was diluted with MeOH (10 mL) after which 27% w/w H~2~O~2~ (1 mL, 8.53 mmol, 2.1 eq.) was added and the mixture was stirred for 90 min. The reaction mixture was concentrated and the solids were redissolved in Et~2~O (40 mL) and washed with HCl (1 M, 40 mL) and water (40 mL). The organic solution was dried over anhydrous MgSO~4~, filtered and the solvent was evaporated leaving the crude product as a yellow oil. The crude product was purified by column chromatography (iso-hexane:EtOAc = 20:1) leaving a colorless oil (0.449 g, 1.75 mmol, 41.1% yield).
+
+- **^1^H NMR** (400 MHz, CDCl~3~): δ 7.31 (dt, J = 8.9, 3.2 Hz, 2H), 7.25 (t, J = 7.8 Hz, 1H), 6.98 (ddd, J = 7.6, 1.5, 0.9 Hz, 1H), 6.91 (dt, J = 8.9, 3.2 Hz, 2H), 6.78 (dd, J = 8.0, 2.3 Hz, 1H), 5.01 (s, 2H), 1.30 (s, 9H).
+
+- **^13^C NMR** (101 MHz, CDCl~3~): δ 156.60, 155.94, 143.82, 139.39, 129.99, 126.41, 119.76, 114.93, 114.40, 114.31, 69.76, 34.23, 31.66.
+
+- **MS (EI):** m/z calcd for C~17~H~20~O~2~: 256.3; found 256.1.
+
+- **Rf** = 
+
+## Photo-ODIBO {.unnumbered}
+
+Tetrachlorocyclopropene (0.26 mL, 2.12 mmol, 1.2 eq.) was added to a suspension of AlCl3 (469.5 mg, 3.52 mmol, 2.0 eq.) in anhydrous DCM (15 mL) and the mixture was stirred at r.t. for 15 min. The reaction mixture was cooled to -78 °C and a solution of 3 (449.3 mg, 1.75 mmol, 1 eq.) in DCM (4 mL) was added dropwise. The reaction mixture was stirred at this temperature for 3 h. The reaction mixture was returned to r.t. and stirred for an additional 30 min. The reaction was quenched by addition of HCl (1 M, 20 mL). The organic layer was washed with brine (20 mL), dried over anhydrous MgSO~4~ and the solvent was evaporated. The crude product was purified by column chromatography (DCM:MeOH = 30:1) leaving a white solid (61.5 mg, 0.201 mmol, 11.5% yield).
+
+- **MS (ESI):** m/z [M+H]^+^ calcd for C~20~H~19~O~3~: 307.36; found 307.2.
+
+
+## Evaluation of photo-conversition by LC-MS {.unnumbered}
+
+## Cell culture {.unnumbered}
+
+## _In situ_ photo-patterning {.unnumbered}
+
+## Oligonucleotide Synthesis
+
+All oligonucleotides were ordered according to the specifications in Table 1. Synthesis was performed by Integrated DNA Technologies (IDT Inc., Iowa, USA). 
+
+## Oligonucleotide conjugation {.unnumbered}
